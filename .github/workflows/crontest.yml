@@ -1,8 +1,7 @@
 name: Cron Test
 on:
   schedule:
-    - cron: '22 8 * * *'
-    - cron: '0/15 * * * *'
+    - cron: "*/5 * * * *"
 jobs:
   cron-test:
     runs-on: ubuntu-latest
